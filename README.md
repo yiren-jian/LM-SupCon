@@ -1,9 +1,19 @@
 # Contrastive for Few-shot Language Learners
 
-This repo covers the implementation of the following paper:  **"Contrastive Learning for Prompt-based Few-shot Language Learners"** .
+This repo covers the implementation of the following paper:  **"Contrastive Learning for Prompt-based Few-shot Language Learners"** accepted by NAACL 2022.
+
 <img src="figures/overview.png" width="800">
 
 If you find this repo useful for your research, please consider citing the paper.
+
+```bibtex
+@article{Jian2022LMSupCon,
+    author = {Yiren Jian, Chongyang Gao and Soroush Vosoughi},
+    title = {Contrastive Learning for Prompt-based Few-shot Language Learners},
+    journal = {NAACL},
+    year = {2022}
+}
+```
 
 Our code is  heavily borrowed from [LM-BFF](https://github.com/princeton-nlp/LM-BFF) and [SupCon](https://github.com/HobbitLong/SupContrast) (```/src/losses.py```).
 
