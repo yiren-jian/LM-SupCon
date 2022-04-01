@@ -1,6 +1,6 @@
 # Contrastive for Few-shot Language Learners
 
-This repo covers the implementation of the following paper:  **"Contrastive Learning for Prompt-based Few-shot Language Learners"** accepted by NAACL 2022.
+This repo covers the implementation of the following paper:  **"Contrastive Learning for Prompt-based Few-shot Language Learners"** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
 
 <img src="figures/overview.png" width="800">
 
