@@ -8,9 +8,9 @@ If you find this repo useful for your research, please consider citing the paper
 
 ```bibtex
 @article{Jian2022LMSupCon,
-    author = {Yiren Jian, Chongyang Gao and Soroush Vosoughi},
+    author = {Jian, Yiren and Gao, Chongyang and Vosoughi, Soroush},
     title = {Contrastive Learning for Prompt-based Few-shot Language Learners},
-    journal = {NAACL},
+    journal = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
     year = {2022}
 }
 ```
