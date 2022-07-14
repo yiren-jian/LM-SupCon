@@ -1,17 +1,25 @@
 # Contrastive Learning for Prompt-based Few-shot Language Learners
 
-This repo covers the implementation of the following paper:  **[Contrastive Learning for Prompt-based Few-shot Language Learners](https://arxiv.org/abs/2205.01308)** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
+This repo covers the implementation of the following paper:  **[Contrastive Learning for Prompt-based Few-shot Language Learners](https://aclanthology.org/2022.naacl-main.408/)** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
 
 <img src="figures/overview.png" width="800">
 
 If you find this repo useful for your research, please consider citing the paper.
 
 ```bibtex
-@article{Jian2022LMSupCon,
-  author = {Jian, Yiren and Gao, Chongyang and Vosoughi, Soroush},
-  title = {Contrastive Learning for Prompt-based Few-shot Language Learners},
-  journal = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-  year = {2022}
+@inproceedings{jian-etal-2022-contrastive,
+    title = "Contrastive Learning for Prompt-based Few-shot Language Learners",
+    author = "Jian, Yiren  and
+      Gao, Chongyang  and
+      Vosoughi, Soroush",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.408",
+    pages = "5577--5587",
+    abstract = "The impressive performance of GPT-3 using natural language prompts and in-context learning has inspired work on better fine-tuning of moderately-sized models under this paradigm. Following this line of work, we present a contrastive learning framework that clusters inputs from the same class for better generality of models trained with only limited examples. Specifically, we propose a supervised contrastive framework that clusters inputs from the same class under different augmented {``}views{''} and repel the ones from different classes. We create different {``}views{''} of an example by appending it with different language prompts and contextual demonstrations. Combining a contrastive loss with the standard masked language modeling (MLM) loss in prompt-based few-shot learners, the experimental results show that our method can improve over the state-of-the-art methods in a diverse set of 15 language tasks. Our framework makes minimal assumptions on the task or the base model, and can be applied to many recent methods with little modification.",
 }
 ```
 
